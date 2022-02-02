@@ -28,6 +28,7 @@ CREATE TABLE [Production].[Product](
 	[DiscontinuedDate] [datetime] NULL,
 	[rowguid] [uniqueidentifier] ROWGUIDCOL  NOT NULL,
 	[ModifiedDate] [datetime] NOT NULL,
+	[qwe] [nchar](10) COLLATE Latin1_General_CI_AS NULL,
  CONSTRAINT [PK_Product_ProductID] PRIMARY KEY CLUSTERED 
 (
 	[ProductID] ASC

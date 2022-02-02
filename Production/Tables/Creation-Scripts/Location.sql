@@ -8,6 +8,7 @@ CREATE TABLE [Production].[Location](
 	[CostRate] [smallmoney] NOT NULL,
 	[Availability] [decimal](8, 2) NOT NULL,
 	[ModifiedDate] [datetime] NOT NULL,
+	[asd] [nchar](10) COLLATE Latin1_General_CI_AS NULL,
  CONSTRAINT [PK_Location_LocationID] PRIMARY KEY CLUSTERED 
 (
 	[LocationID] ASC
